@@ -1,0 +1,16 @@
+@media only screen and (max-width: 600px) {
+    /* Styles for screens smaller than 600px (e.g., mobile phones) */
+  }
+  img, video {
+    max-width: 100%;
+    height: auto;
+  }
+  a, button {
+    min-width: 48px; /* or adjust as needed */
+    min-height: 48px; /* or adjust as needed */
+  }
+  body {
+    font-size: 16px; /* Adjust as needed */
+    line-height: 1.5; /* Adjust as needed */
+  }
+  

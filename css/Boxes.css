@@ -1,0 +1,54 @@
+   /* Create a grid layout */
+   .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    grid-gap: 20px; /* Gap between columns */
+}
+
+/* Style for the boxes */
+.info-box {
+    background-color: transparent;
+    display: grid;
+}
+
+/* Style for sections */
+.section {
+    margin-bottom: 10px;
+}
+
+.section-header {
+    font-weight: bold;
+}
+
+.section-content {
+    margin-left: 10px;
+}
+
+.ResumeTop{
+    display: grid;
+    grid-template-columns: 1fr; /* Two equal columns */
+    grid-gap: 20px; /* Gap between columns */
+}
+
+.box {
+    align-content: center;
+    width: 300px; /* Adjust the width as needed */
+    height: 200px; /* Adjust the height as needed */
+    border-radius: 15px; /* Adjust the border radius for rounded edges */
+    border: 5px solid #000000; /* Border color and thickness */
+    overflow: hidden; /* Ensure the image stays within the box */
+}
+.container2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Two equal columns */
+    grid-gap: 20px; /* Gap between columns */
+}
+
+.image-wrapper {
+    text-align: center; /* Center align the image and text */
+  }
+  
+  .image-wrapper img {
+    max-width: 100%; /* Ensure images don't exceed container width */
+    height: auto; /* Maintain aspect ratio */
+  }
